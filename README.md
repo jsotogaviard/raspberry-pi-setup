@@ -46,6 +46,10 @@ ssh pi@ip
 ```
 note can be logged in also with
 ```
+ssh jsoto@92.89.86.97 -p 80
+```
+or
+```
 ssh jsoto@92.89.86.97
 ```
 
