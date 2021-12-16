@@ -38,7 +38,7 @@ screen -L /dev/tty.usbserial-0001 115200
 ## ssh login
 * the ip address that is being used can be found with (zenmap tool works well too):
 ```
-nmap -sn 192.168.0.0/128
+nmap -sn 192.168.1.0/24
 ```
 and then
 ```
@@ -78,6 +78,7 @@ sudo usermod -aG docker jsoto
 ```
 * check docker is installed
 ```
+docker --version
 ```
 ## install docker-compose
 * to install docker-compose run
