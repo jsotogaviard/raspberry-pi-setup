@@ -81,10 +81,27 @@ sudo usermod -aG docker jsoto
 docker --version
 ```
 ## install docker-compose
-* to install docker-compose run
+* install python3
 ```
-sudo apt-get install --yes libffi-dev libssl-dev python3 python3-pip python3-dev
-sudo pip3 install docker-compose
+apt-get install --yes libffi-dev libssl-dev python3 python3-pip python3-dev
+```
+* install rust
+```
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+* check rust it is installed
+```
+rustc --version
+```
+
+* install cryptography
+```
+pip3 install cryptography
+```
+* install docker-compose
+```
+pip3 install docker-compose
 ```
 * check docker-compose is installed
 ```
